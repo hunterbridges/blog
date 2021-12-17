@@ -1,0 +1,35 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               'Hunter Thinks About Games'
+url:                 https://blog.hunterbridges.com
+tagline:             A blog by Hunter Bridges about the history and design of video games
+paginate:            1000
+paginate_path:       "/page:num/"
+baseurl:             ""
+
+# Includes
+include:
+  - _redirects
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Hunter Bridges
+  url:               https://twitter.com/hunterbridges
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/hunterbridges/blog
+
+# Plugins
+plugins:
+  - jekyll-gist
