@@ -27,15 +27,49 @@ table {
     }
 }
 
-img {
-    height: auto;
-    left: calc(50% - 500px);
-    position: relative;
-    width: 1000px;
+article
+{
+    img {
+        display:block;
+        border:0.25em solid;
+        box-shadow:0em 0.5em 0.5em rgba(0.0, 0.0, 0.0, 0.6);
+        margin:1.5em auto;
+    }
+}
 
-    @media(max-width:1000px) {
-        left: auto;
-        width: 100%;
+.index {
+    h3 {
+        margin:0;
+    }
+
+    .index_excerpt {
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .index_article { 
+        margin:1em 0;
+        padding-bottom:1.5em;
+
+        small.date { float: right; }
+    }
+
+    .index_article:not(:last-child) {
+        border-bottom:1px dotted gray;
+    }
+}
+
+.sig_container
+{
+    margin:3em 0;
+    text-align: center;
+
+    img {
+        outline:none;
+        border:none;
+        display:inline-block;
+        width:96px;
+        margin:auto;
     }
 }
 

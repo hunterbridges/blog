@@ -3,9 +3,13 @@ layout: post
 title:  "Numbers We Can See"
 date:   2021-12-21 00:00:00 +0000
 categories: design
+excerpt_separator: <!--more-->
 ---
 
-Computers are a lot like calculators: They are machines that take numbers, do something with them, and give other numbers back.
+Video games run on computers. Computers are a lot like calculators: They are machines that take numbers,
+do something with them, and give other numbers back.
+
+<!--more-->
 
 After computers came to exist in the 1950s, people began to realize all kinds of ways
 numbers could be used to do different things. For example, numbers can be [used to represent letters](https://en.wikipedia.org/wiki/ASCII).
@@ -38,7 +42,7 @@ about numbers when they are displayed somewhere on the screen.
 This means that there is a lot of power in controlling _which numbers a player sees_! A developer's decisions about displaying numbers has a profound
 impact on the player's experience.
 
-Let's analyze an example from _Super Mario Bros._ (1985)
+Let's look at an example from _Super Mario Bros._ (1985)
 
 ![SMB1-1](https://user-images.githubusercontent.com/775593/147008907-447273bc-c07c-488a-8956-2ab9a6734a64.png)
 
@@ -119,7 +123,9 @@ Wired](https://www.wired.co.uk/article/pokemon-interview).
 > Each Pokémon does have [Invidividual Values], but I don't consider those data as parameters. I prefer to think of them as real, living creatures. It's the same way that if you have a pet and someone else has the same breed of dog, it's a different dog. That way people can play the game and my Pokemon will be different to your Pokemon even if they're the same type.
 
 As the series progressed, the concept of IVs were expanded upon, and gradually became more visible and available to advanced players. The stat
-formulas also became more complex, becaming more influenced by the playtime a player spends with with their Pokémon. Nonetheless, the endurance
+formulas also became more complex, becaming more influenced by the playtime a player spends with with their Pokémon.
+
+Nonetheless, the endurance
 of the IV system throughout the series is a testament to the original intent of making Pokémon feel organic, and the effectiveness of hiding
 these numbers from the player to suspend their disbelief.
 

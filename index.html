@@ -3,14 +3,28 @@ title: Home
 layout: default
 ---
 
+<div class="index">
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%B %Y" %}
+
   {% if currentdate != date %}
+    {% if date != nil %}
+    </div><!-- index_month -->
+    {% endif %}
+
     <h2 id="y{{currentdate}}">{{ currentdate }}</h2>
     {% assign date = currentdate %} 
+    <div class="index_month">
   {% endif %}
-    <p>
+
+  <div class="index_article">
+    <small class="date">{{ post.date | date: '%B %d, %Y' | remove: "<p>" | remove: "</p>" }}</small>
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <small>{{ post.excerpt }}</small>
-    </p>
+    <div class="index_excerpt">
+      <small><i>{{ post.excerpt | remove: "<p>" | remove: "</p>" }} [&hellip;]</i></small>
+    </div>
+  </div>
 {% endfor %}
+
+    </div><!-- index_month -->
+</div><!-- index -->

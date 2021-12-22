@@ -3,9 +3,12 @@ layout: post
 title:  "Introduction to the Blog"
 date:   2021-12-17 02:16:00 +0000
 categories: misc
+excerpt_separator: <!--more-->
 ---
 Welcome to *Hunter Thinks About Games*! My name is [Hunter Bridges](https://hunterbridges.com/),
 and this is where I aim to post various thoughts I have about games.
+
+<!--more-->
 
 I've been playing and making games for quite a while. I grew up in the 1990s, alongside the
 emergence of 3D games, and I have always been fascinated by the craft and the art of game making.
