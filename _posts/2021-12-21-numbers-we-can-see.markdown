@@ -123,7 +123,7 @@ Wired](https://www.wired.co.uk/article/pokemon-interview).
 > Each Pokémon does have [Invidividual Values], but I don't consider those data as parameters. I prefer to think of them as real, living creatures. It's the same way that if you have a pet and someone else has the same breed of dog, it's a different dog. That way people can play the game and my Pokemon will be different to your Pokemon even if they're the same type.
 
 As the series progressed, the concept of IVs were expanded upon, and gradually became more visible and available to advanced players. The stat
-formulas also became more complex, becaming more influenced by the playtime a player spends with with their Pokémon.
+formulas also became more complex, becoming more influenced by the time a player spends with their Pokémon.
 
 Nonetheless, the endurance
 of the IV system throughout the series is a testament to the original intent of making Pokémon feel organic, and the effectiveness of hiding
