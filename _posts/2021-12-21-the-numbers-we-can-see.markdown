@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "The Numbers We Can See"
+title:  "Numbers We Can See"
 date:   2021-12-21 00:00:00 +0000
 categories: design
 ---
-
-# Numbers We Can See
 
 Computers are a lot like calculators: They are machines that take numbers, do something with them, and give other numbers back.
 
