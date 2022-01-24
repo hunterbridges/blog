@@ -79,16 +79,16 @@ for inflation and expressed in today's dollars.
 
 So, given all those caveats, here's a peek of what I came up with:
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyN82ng-_4HXFed21TAwOs4hMAUH2mFTP4akwAli0tN4WtHcea8rdL_OgSpDamAJgEyLYHY0-Ze0Zc/pubhtml?gid=155233835&amp;single=true&amp;widget=true&amp;headers=false" height="480" width="640"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyN82ng-_4HXFed21TAwOs4hMAUH2mFTP4akwAli0tN4WtHcea8rdL_OgSpDamAJgEyLYHY0-Ze0Zc/pubhtml?gid=155233835&amp;single=true&amp;widget=true&amp;headers=false" height="540" width="640"></iframe>
 
 Some additional notes about this data:
 
 - These all should be considered ballpark numbers, and taken with a grain of salt!
 - A lot of these numbers were gathered from [this page on the Video Game Sales Wiki](https://vgsales.fandom.com/wiki/Video_game_costs)
 - The budget numbers highlighted in yellow were educated guesses based on the relative development costs from a 2005 CEDEC survey in Japan
-- I could not really find any data about the costs of developing for SEGA systems like Master System, Genesis, Game Gear, Saturn or Dreamcast, so they are omitted
-- I also could not find anything definitive about Wii U or PS Vita
-- Switch is also omitted, as there is not really an average development budget case
+- I could not really find any data about the costs of developing for SEGA systems like Master System, Genesis, Game Gear, Saturn or Dreamcast, so they are omitted.
+- I could not find anything definitive about Wii U or PS Vita development budgets.
+- Switch crossed over the worlds of console and handheld. So, there is not really an average development budget case.
 
 ## Insights Gained
 
@@ -110,7 +110,7 @@ since then.
 
 ## Lessons For Today
 
-Although I have digressed from my original theories that prompted this investigation, I still feel like I came away with a better understanding of how the
+Although I may not have adequately answered my original question, I still feel like I came away with a better understanding of how the
 market evolved, and where that has led us today. It is pretty staggering to think about those technological paradigm shifts that have driven massive changes
 in game production economics.
 
