@@ -62,25 +62,26 @@ a lot easier in 2006 than it was in 1996. After all, a developer in 2006 would h
 So, if screen height is a measure of potential, is there a way we can we compare screen heights with game budgets, and derive some industry-wide indicator
 of efficiency or technical mastery?
 
-## Gleaning a Look
+## Gleaning Some Intel
 
 Since I was curious, I decided to try and take a look. After all, it must be easy to examine 40 years of game dev budgets, right? Well, unfortunately
 the game industry is notoriously secretive, and production budget numbers are some of the most closely guarded business secrets in the industry. Fortunately,
 various industry insiders have been willing to talk in the abstract over the years, giving me enough breadcrumbs to start piecing it together.
 
-There's also the fact that this is a complex, multivariate problem. The games market has become more mature and specialized since 1983, and there have been large
-market fragmentations over the years: the invention of handheld systems and smartphones, the emergence of indie-friendly downloadable distribution platforms,
-and the introduction of alternative revenue strategies like free-to-play and subscription models. So for this analysis I thought to narrow the focus on
-**full-price** games for **console** and **handheld** systems.
+There's also the fact that this is a complex problem with multiple variables. The games market has become more mature and specialized since 1983,
+and there have been large market fragmentations over the years: the invention of handheld systems and smartphones, the emergence of
+indie-friendly downloadable distribution platforms, and the introduction of alternative revenue strategies like free-to-play and subscription models.
+So for this analysis I thought to narrow the focus on **full-price** games for **console** and **handheld** systems. Also, I don't want to get into
+the time durations of dev cycles... I am just attempting to focus on the total development cost.
 
 It's also an exploration that spans four decades. If we want to compare budgets across generations, we need to make sure everything is adjusted
 for inflation and expressed in today's dollars.
 
 So, given all those caveats, here's a peek of what I came up with:
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyN82ng-_4HXFed21TAwOs4hMAUH2mFTP4akwAli0tN4WtHcea8rdL_OgSpDamAJgEyLYHY0-Ze0Zc/pubhtml?gid=155233835&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyN82ng-_4HXFed21TAwOs4hMAUH2mFTP4akwAli0tN4WtHcea8rdL_OgSpDamAJgEyLYHY0-Ze0Zc/pubhtml?gid=155233835&amp;single=true&amp;widget=true&amp;headers=false" height="480" width="640"></iframe>
 
-Some notes about this data:
+Some additional notes about this data:
 
 - These all should be considered ballpark numbers, and taken with a grain of salt!
 - A lot of these numbers were gathered from [this page on the Video Game Sales Wiki](https://vgsales.fandom.com/wiki/Video_game_costs)
@@ -88,13 +89,36 @@ Some notes about this data:
 - I could not really find any data about the costs of developing for SEGA systems like Master System, Genesis, Game Gear, Saturn or Dreamcast, so they are omitted
 - I also could not find anything definitive about Wii U or PS Vita
 - Switch is also omitted, as there is not really an average development budget case
-- These numbers could very well be _WRONG!_ If you have better data, I'd be curious to heear about it!
 
 ## Insights Gained
 
-In looking at these numbers, in all their flaws, I did come to some interesting conclusions.
+In looking at these numbers, in all their flaws, I did have some general insights.
 
-One is that the MSRP of full-price games have increased a lot more slowly compared to inflation. There was a $10 industry-wide price bump in 2005, but
-that only recovered about $6 of value in today's dollars, while over $20 had already been lost.
+First of all, the "dollars per scanline" metric seems to spike when new technologies cause a paradigm shift, then drops as developers become accustomed to the tech. Perhaps my theory holds water... but unfortunately I don't think this data set is strong enough to confirm it. So from here on out is a bit discursive! But
+I still had more to think about:
 
-// TODO
+- The jump to HD caused a massive shift. Games became at least 10x more expensive to make when we jumped from 480p to 1080p.
+- When games became 10x more expensive to make, games had to sell 10x more copies to break even. Despite this, the increased dev cost was not complimented by
+10x market growth. The combined install base for Sony and Microsoft consoles has stayed consistent at around 170 million since 2000, when games were still in 480p.
+- The "jump to HD" in 2005 parallels the "jump to 3D" in 1995. Games became 10x-20x more expensive to develop for the PS1 than they were for the SNES.
+- The MSRP of full-price games has lost a lot of value to inflation. There was a $10 industry-wide MSRP bump in 2005, but by that time
+over $20 of value in today's dollars had already been lost compared to 1989. That $10 price bump only reclaimed about $6 of value. We've lost another $26
+since then.
+- So while dev budgets for full-price games have ballooned 50x-100x since SNES, the inflation-adjusted full MSRP has lost about 40% of its value in the same time.
+- The handheld world stayed relatively steady, despite HD making things a headache on consoles.
+- 2D pixel art games are probably the cheapest kind of games you can make!
+
+## Lessons For Today
+
+Although I have digressed from my original theories that prompted this investigation, I still feel like I came away with a better understanding of how the
+market evolved, and where that has led us today. It is pretty staggering to think about those technological paradigm shifts that have driven massive changes
+in game production economics.
+
+Something that this data misses is too is all of the ways the games market has evolved to allow for different scales of production to coexist. While $50,000,000 games
+do happen, there are also $5,000,000 games, $500,000 games, and $50,000 games. Unfortunately, their MSRP is scaled relative to the full-price games... they
+might end up being sold for $40, $30, $20, or $10. Now that Switch has crossed the handheld world over with consoles, is a certain production tier potentially today's
+equivalent of yesterday's "handheld" games?
+
+As ever, there is also a business case for novel technical optimization. If a studio manages to come up a technique or process that can yield competitive games
+at 1/10th of the cost, they can claw back the value that has been lost to the march of screen sizes. That may seem outlandish or even impossible, but I can't help
+but wonder, what would that look like?
