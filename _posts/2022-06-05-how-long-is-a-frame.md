@@ -4,6 +4,7 @@ title:  "How Long is a Frame?"
 date:   2022-06-05 00:00:00 +0000
 categories: design
 excerpt_separator: <!--more-->
+image: /img/frames_sakura_lp.gif
 ---
 
 I've recently stumbled upon a topic that differs greatly depending on the backgrounds

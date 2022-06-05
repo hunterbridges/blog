@@ -8,6 +8,7 @@ tagline:             A blog by Hunter Bridges about the history and design of vi
 paginate:            1000
 paginate_path:       "/page:num/"
 baseurl:             ""
+title_image:         /img/Hunter_Icon_960.png
 
 # Includes
 include:
