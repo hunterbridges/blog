@@ -8,7 +8,7 @@ image: /img/frames_sakura_lp.gif
 ---
 
 I've recently stumbled upon a topic that differs greatly depending on the backgrounds
-of different game creators. It's a fundamental question of time; namely, should time
+of each game creator. It's a fundamental question of time; namely, should time
 be measured in terms of seconds, or in terms of frames?
 
 I am a stalwart defender of frames... but I still think seconds
