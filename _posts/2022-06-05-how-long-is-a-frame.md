@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 image: /img/frames_sakura_lp.gif
 ---
 
-I've recently stumbled upon a topic that differs greatly depending on the backgrounds
+I've recently stumbled upon a topic that differs greatly depending on the background
 of each game creator. It's a fundamental question of time; namely, should time
 be measured in terms of seconds, or in terms of frames?
 
