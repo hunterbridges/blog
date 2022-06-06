@@ -58,7 +58,7 @@ When we're dealing with gameplay actions, especially ones that need to respond t
 press, game feel is determined by changes that transpire over the course of fractions
 of a second.
 
-This means that insisting on measuring with seconds means that the programmers and
+Insisting on measuring with seconds means that the programmers and
 designers are going to be juggling a lot of fractional numbers! Fine tuning these very
 quick gameplay actions often means deciding over the difference between numbers like 0.2 and
 0.25 seconds.
