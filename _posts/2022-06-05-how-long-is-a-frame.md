@@ -38,7 +38,7 @@ granular intervals.
 _(For these examples, I am hacking around with some JavaScript code by [Richard Davey](https://twitter.com/photonstorm) I found [here](https://phaser.io/tutorials/coding-tips-007))_
 
 Let's say we are making a shoot-em-up game, and we have a spaceship that needs
-to shoot rapid fire projectiles. To start off, let's make so where if you hold the fire button,
+to shoot rapid fire projectiles. To start off, let's make it so where if you hold the fire button,
 it shoots 1 bullet per second:
 
 <img src="/img/frames_1shotpersecond.gif">
