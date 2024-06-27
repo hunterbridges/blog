@@ -46,7 +46,7 @@ layout: default
     stations at which the train continues or stops.
 </p>
 <p>
-    Navigating a diagram effectively demands the player mind all posted speed limits,
+    Navigating a diagram effectively demands the driver mind all posted speed limits,
     while still punctually arriving at each station as close to the estimated time as possible.
     Moreover, the driver is expected to stop as close to the target location at each station as possible,
     down to the centimeter.
@@ -81,7 +81,7 @@ layout: default
 
 <h5>Driving The Train</h5>
 <p>The train is primarily driven using the Playdate's crank.</p>
-<article><img src="/zerozero/img/crank.png"></article>
+<article><img width="600" src="/zerozero/img/crank.png"></article>
 <p>
     The <b>Neutral</b> gear is set by pointing the crank perpendicular to the screen, towards the player. In neutral, the train will not gain speed.
     The train will coast along at its current speed, but will gradually lose speed due to friction.
@@ -101,11 +101,12 @@ layout: default
 <p>It is also possible to change gears by using the A/B buttons, or up/down on the D-Pad.</p>
 
 <h5>Rules and Bonuses</h5>
-<p>The driver has a Trust Gauge which represents the passengers' trust that the driver can safely get them to their destination. The driver must complete the diagram without
-    trust falling to 0.
+<p>The driver has a Trust Gauge which represents their passengers' Trust in them.
+    The driver must complete the diagram <b>without Trust running out</b>.
+    If all Trust is lost, a <b>Game Over</b> will occur.
 </p>
 <p>
-    There are various rules that will incur a <b>penalty</b> if broken, and cause the driver to lose trust from the riders:
+    There are various rules that will incur a <b>penalty</b> if broken, and cause the driver to <b>lose trust</b> from the riders:
     <ul>
         <li><b>Leaving the station before the doors have closed</b> will incur a penalty. Before you leave the station, wait for the <img src="/zerozero/img/DoorLight_Off.gif"> light to change to <img src="/zerozero/img/DoorLight_On.gif">.</li>
         <li><b>Idling on the tracks</b> without moving the train will incur a penalty.</li>
@@ -118,7 +119,7 @@ layout: default
     </ul>
 </p>
 <p>
-    There are also <b>bonuses</b> which give the driver opportunities to increase their trust:
+    There are also <b>bonuses</b> which give the driver opportunities to <b>gain trust</b>:
     <ul>
         <li><b>Fulfilling objectives</b> such as target speed points, target time points, or horn honks will grant a bonus.</li>
         <li><b>Stopping very close and very punctually</b> grants varying degrees of bonuses, depending on the level of accuracy.</li>
@@ -158,14 +159,26 @@ layout: default
 </p>
 
 <h4>Tutorial</h4>
-<p>TODO</p>
+<p>Coming soon!</p>
 
 <h4>Records</h4>
-<p>TODO</p>
+<p>Coming soon!</p>
 
 <h4>Options</h4>
 <ul>
     <li><b>Language</b> - Change the game language. The game is playable in English or Japanese.</li>
+</ul>
+<hr>
+
+<h3>Strategy and Tips</h3>
+<ul>
+    <li>Try getting used to the physics in Free Mode</li>
+    <li>The brake is hydraulic, so it takes a moment to change pressure</li>
+    <li>Try letting off the brake gradually before doors close to get going quickly</li>
+    <li>Use full throttle when leaving the station</li>
+    <li>Don't be afraid to brake hard (B7 or B8)</li>
+    <li>Try starting to brake around 200m - 250m away from the station</li>
+    <li>Experiment with your own driving style</li>
 </ul>
 <hr>
 
