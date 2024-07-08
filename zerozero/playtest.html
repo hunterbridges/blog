@@ -113,7 +113,7 @@ layout: default
         <li><b>Accelerating near an approaching station</b> will incur a penalty.</li>
         <li><b>Exceeding a speed limit</b> will incur a penalty.</li>
         <li><b>Engaging the Emergency Brake</b> will incur a penalty.</li>
-        <li><b>Engaging the ATC</b> (Automatic Train Control) will incur a penalty. The ATC is engaged if the speed limit is exceeded for more than 1 second. It will automatically activate the E brake until the speed has returned to below the speed limit. After the ATC is engaged, the driver must return the gear to Neutral to reclaim control of the train.</li>
+        <li><b>Engaging the ATC</b> (Automatic Train Control) will incur a penalty. The ATC is engaged if the speed limit is exceeded for more than 1 second. It will automatically activate the E brake until the speed has returned to below the speed limit.</li>
         <li><b>Arriving excessively late</b> (10 seconds or more) will incur a penalty.</li>
         <li><b>Stopping excessively beyond the target point</b> (10 meters or more) will incur a penalty.</li>
     </ul>
@@ -195,6 +195,20 @@ layout: default
 <hr>
 
 <h3>Changelog</h3>
+<h4>0.5 Build 4 - 2024-07-07</h4>
+<p>
+    <ul>
+        <li>Changed English name of 富士山 to "Mt. Fuji" (was "Fujisan")</li>
+        <li>Made cycle timer properly take delta time into account</li>
+        <li>Optimized loading speed for game package metadata</li>
+        <li>Removed requirement for player to return gear to N after the ATC auto-brake engages and releases</li>
+        <li>Prevented HUD elements from flashing while gameplay is inactive</li>
+        <li>Changed target time point-of-interest to update every second, instead of every frame, in order to prevent the number changing rapidly in the HUD</li>
+        <li>Fixed a bug where running out of Trust during the station arrival sequence wasn't properly causing a game over</li>
+        <li>Fixed a bug where the HUD flash message was not fading out properly before the diagram clear sequence</li>
+        <li>Other stability fixes</li>
+    </ul>
+</p>
 <h4>0.5 Build 3 - 2024-06-29</h4>
 <p>Optimized font loading to reduce launch time.</p>
 <h4>0.5 Build 2 - 2024-06-24</h4>
