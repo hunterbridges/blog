@@ -1,0 +1,287 @@
+---
+title: "Zero Zero: Perfect Stop Players' Guide"
+layout: default
+---
+
+<article><img src="/zerozero/img/Thumbnail.png"></article>
+<h1>Zero Zero: Perfect Stop</h1>
+<h2>Players' Guide</h2>
+<hr>
+<h3>Overview</h3>
+<p><em>Zero Zero: Perfect Stop</em> is a 3D train driving game for Playdate.
+    Players use the crank to drive the train, and navigate speed limits and
+    other objectives as they try to stop at each station as punctually and
+    precisely as possible. Enjoy the sights of Yamanashi along the Fuji Express!</p>
+<h3>Fast Facts</h3>
+<ul>
+    <li><b>Platform:</b> Playdate</li>
+    <li><b>Players:</b> 1 Player</li>
+    <li><b>Genre:</b> Arcade/Simulation</li>
+    <li><b>Languages:</b> English, Japanese</li>
+</ul>
+<h3>Other Links</h3>
+<ul>
+    <li><a href="https://play.date/games/340143" target="_blank">Zero Zero on Playdate Catalog</a></li>
+    <li><a href="https://hunterbridges.com/zerozero.html" target="_blank">Zero Zero Website</a></li>
+    <li><a href="https://hunty.bandcamp.com/album/zero-zero-perfect-stop-original-soundtrack" target="_blank">Zero Zero: Perfect Stop Official Soundtrack</a></li>
+    <li><a href="https://yeehunty.itch.io/zero-zero-perfect-stop" target="_blank">Itch.io</a></li>
+</ul>
+<hr>
+<h3>How To Play</h3>
+<h4>Main Menu</h4>
+<article><img src="/zerozero/img/mainmenu.png"></article>
+
+<p>On the main menu, you can select various game modes. Your guide Rei is visible on the right.</p>
+<ul>
+    <li><b>Driver's Mode</b> - Challenge your driving skills across a variety of diagrams. All rules are enforced.</li>
+    <li><b>Free Mode</b> - Freely drive the train along the course, with no rules or objectives.</li>
+    <li><b>Tutorial</b> - View an interactive tutorial about how to play Driver's Mode.</li>
+    <li><b>Records</b> - View saved records about your driving history and performance.</li>
+    <li><b>Options</b> - Adjust various game options.</li>
+</ul>
+
+<h4>Driver's Mode</h4>
+<h5>Objective</h5>
+
+<p>The objective of Driver's Mode is to properly, punctually, and precisely drive the train
+    according to the <i>diagram</i>. A <i>diagram</i> is a pre-planned route and timetable of
+    stations at which the train continues or stops.
+</p>
+<p>
+    Navigating a diagram effectively demands the driver mind all posted speed limits,
+    while still punctually arriving at each station as close to the estimated time as possible.
+    Moreover, the driver is expected to stop as close to the target location at each station as possible,
+    down to the centimeter.
+</p>
+<p>
+    The core of the challenge is that trains are very large, and have a lot of momentum. They accelerate
+    very gradually, and brake across a long distance relative to other vehicles like cars.
+</p>
+
+<h5>Screen Layout</h5>
+<article><img src="/zerozero/img/coregame.png"></article>
+
+<p>
+    (Clockwise from top-left)
+    <ol>
+        <li><b>Chronometer</b> - Displays the estimated arrival time according to the diagram on top, and the current time on the bottom.</li>
+        <li><b>Trust Gauge</b> - Displays your remaining trust. If you incur penalties, you lose trust. If you fulfill objectives, you gain trust. If you lose all trust, game over.</li>
+        <li><b>Gear Indicator</b> - Shows the current driving gear of the train. The possible gears are<br>
+            <ul>
+                <li>N (Neutral)</li>
+                <li>1 - 5 (Throttle 1, weakest, to Throttle 5, strongest)</li>
+                <li>B1 - B8 (Brake 1, weakest, to Brake 8, strongest)</li>
+                <li>E (Emergency brake)</li>
+            </ul>
+            </li>
+        <li><b>Speed Limit</b> - The current speed limit is shown along the bottom of the screen. When a new speed limit is upcoming, it will flash above.</li>
+        <li><b>Speedometer</b> - The current speed of the train in km/h</li>
+        <li><b>Lookahead</b> - A preview of speed limits, objectives, and stations along the upcoming 500m of the diagram.</li>
+        <li><b>Target Indicator</b> - (To the right of Lookahead) Indicates the remaining distance to either the next station, or the next objective.</li>
+    </ol>
+</p>
+
+<h5>Driving The Train</h5>
+<p>The train is primarily driven using the Playdate's crank.</p>
+<article><img src="/zerozero/img/crank.png"></article>
+<p>
+    The <b>Neutral</b> gear is set by pointing the crank perpendicular to the screen, towards the player. In neutral, the train will not gain speed.
+    The train will coast along at its current speed, but will gradually lose speed due to friction.
+</p>
+<p>
+    The <b>Throttle</b> is engaged by rotating the crank downwards towards the bottom of the device. There are 5 gradual stages of throttle of increasing intensity.
+    The train will increase in speed when the throttle is applied. Higher gears will accelerate more rapidly, and to a higher top speed. 
+</p>
+<p>
+    The <b>Brake</b> is engaged by rotating the crank upwards towards the top of the device. There are 8 gradual stages of the brake of increasing intensity.
+    The train will lose speed more quickly when the brake is applied. Higher brakes will decelerate more rapidly. All brakes will eventually decelerate the train to 0 km/h.
+</p>
+<p>
+    The <b>Emergency Brake</b> is an even more powerful stage of brake that is engaged by rotating the crank upwards past the top of the device. This is
+    the strongest stage of the brake, but using the emergency brake will incur a penalty because it is dangerous for passengers.
+</p>
+<p>It is also possible to change gears by using the A/B buttons, or up/down on the D-Pad.</p>
+
+<h5>Rules and Bonuses</h5>
+<p>The driver has a Trust Gauge which represents their passengers' Trust in them.
+    The driver must complete the diagram <b>without Trust running out</b>.
+    If all Trust is lost, a <b>Game Over</b> will occur.
+</p>
+<p>
+    There are various rules that will incur a <b>penalty</b> if broken, and cause the driver to <b>lose trust</b> from the riders:
+    <ul>
+        <li><b>Leaving the station before the doors have closed</b> will incur a penalty. Before you leave the station, wait for the <img src="/zerozero/img/DoorLight_Off.gif"> light to change to <img src="/zerozero/img/DoorLight_On.gif">.</li>
+        <li><b>Idling on the tracks</b> without moving the train will incur a penalty.</li>
+        <li><b>Accelerating near an approaching station</b> will incur a penalty.</li>
+        <li><b>Exceeding a speed limit</b> will incur a penalty.</li>
+        <li><b>Engaging the Emergency Brake</b> will incur a penalty.</li>
+        <li><b>Engaging the ATC</b> (Automatic Train Control) will incur a penalty. The ATC is engaged if the speed limit is exceeded for more than 1 second. It will automatically activate the E brake until the speed has returned to below the speed limit.</li>
+        <li><b>Arriving excessively late</b> (10 seconds or more) will incur a penalty.</li>
+        <li><b>Stopping excessively beyond the target point</b> (10 meters or more) will incur a penalty.</li>
+    </ul>
+</p>
+<p>
+    There are also <b>bonuses</b> which give the driver opportunities to <b>gain trust</b>:
+    <ul>
+        <li><b>Fulfilling objectives</b> such as target speed points, target time points, or horn honks will grant a bonus.</li>
+        <li><b>Stopping very close and very punctually</b> grants varying degrees of bonuses, depending on the level of accuracy.</li>
+        <li><b>Passing a station at the expected time</b> also grants a bonus in the express diagram.</li>
+    </ul>
+</p>
+
+<h5>Stopping At Stations</h5>
+<p>
+    At the end of each segment, there is a train station. In most cases, the driver will stop at the station. If playing the express diagram,
+    the driver is expected to pass every station until the last station in the diagram.
+</p>
+<p>
+    The train must be stopped within 500 cm, or 5 m, of the target point at each station. The closer, the better!
+</p>
+<p>
+    A <b>perfect stop</b> is achieved by stopping 0 seconds off schedule, and 0 cm away from the target point. Can you achieve a <b>Zero Zero</b>?
+</p>
+
+<h5>Results and Scoring</h5>
+<article><img src="/zerozero/img/results.png"></article>
+<p>
+    After successfully completing all scheduled stops in a diagram, the driver will be presented with a results screen, and scored
+    according to performance. There are several categories which add up to the total:
+    <ul>
+        <li><b>Schedule</b> - How close to the estimated timetable at each station</li>
+        <li><b>Distance</b> - How close to the target position at each station</li>
+        <li><b>Speed</b> - How consistently the driver minded speed limits</li>
+        <li><b>Skill</b> - How consistently the driver met objectives</li>
+        <li><b>Eco</b> - How well the driver is controlling emissions by sparingly using the throttle</li>
+    </ul>
+</p>
+
+<h4>Free Mode</h4>
+<p>In Free Mode, the driver can freely operate the train along the track. There are no rules, objectives, scores, or schedules. 
+    A free mode session will continue indefinitely until the player returns to the main menu.
+</p>
+
+<h4>Tutorial</h4>
+<p>Enjoy an interactive tutorial, teaching you how to drive the train and the rules of the game. Provided by your guide, Rei!</p>
+
+<h4>Records</h4>
+<p>Look at records of your previous high scores, or see how you rank on the online Leaderboards.</p>
+
+<h4>Options</h4>
+<ul>
+    <li><b>Language</b> - Change the game language. The game is playable in English or Japanese.</li>
+</ul>
+<hr>
+
+<h3>Strategy and Tips</h3>
+<ul>
+    <li>Try getting used to the physics in Free Mode</li>
+    <li>The brake is hydraulic, so it takes a moment to change pressure</li>
+    <li>Try letting off the brake gradually before doors close to get going quickly</li>
+    <li>Use full throttle when leaving the station</li>
+    <li>Don't be afraid to brake hard (B7 or B8)</li>
+    <li>Try starting to brake around 200m - 250m away from the station</li>
+    <li>Experiment with your own driving style</li>
+</ul>
+<hr>
+
+<h3>Development Roadmap</h3>
+<p>Much has been done, but there is still some stuff left to do before the game can be released! Here is a brief inventory of the work outstanding:</p>
+<ul>
+    <li><s>3D scene polish (Primarily generating the buildings and train stations)</s></li>
+    <li><s>Implement tutorials</s></li>
+    <li><s>Implement records</s></li>
+    <li><s>Finalize Title Screen</s></li>
+    <li><s>Create and implement announcements</s></li>
+    <li><s>Create and implement station melodies</s></li>
+</ul>
+<hr>
+
+<h3>Changelog</h3>
+<h4>1.0 Build 9 - 2024-08-20</h4>
+<p>
+    <b>Initial Catalog Release</b>
+    <ul>
+        <li>Re-rendered video to fix a couple more visual bugs</li>
+        <li>Updated pronunciation for "Shimoyoshida" announcer line</li>
+        <li>Increased volume of English and Japanese in-car announcements by +2 dB</li>
+    </ul>
+</p>
+
+<h4>1.0 Build 8 - 2024-08-19</h4>
+<p>
+    <ul>
+        <li>Implemented Title Screen</li>
+        <li>Implemented Staff Credits</li>
+        <li>Implemented Announcements</li>
+        <li>Implemented Station Melodies</li>
+        <li>Slightly reduced Trust Gauge fill scale</li>
+        <li>Clamped Trust Gauge fill width</li>
+        <li>Stopped all audio on scene change</li>
+        <li>Disabled Dev Menu</li>
+        <li>Fixed dialog box sounds being heard in Driver's Mode after exiting from Tutorial</li>
+        <li>Adjusted font tracking for lowercase i and l characters</li>
+        <li>Re-rendered video</li>
+    </ul>
+</p>
+
+<h4>0.5 Build 7 - 2024-08-12</h4>
+<p>
+    <ul>
+        <li>Implemented Records menu</li>
+        <li>Implemented global records tracking</li>
+        <li>Implemented Leaderboards</li>
+        <li>Fix for scene transitions to always happen between frames</li>
+        <li>Further balance tweaks for Eco score calculation</li>
+        <li>Increased starting Trust by 5 on all diagrams</li>
+        <li>Increase Trust gauge scale by 2x</li>
+        <li>Wrapping fix to make sure Chronometer doesn't display hours outside of 00-23</li>
+    </ul>
+</p>
+
+<h4>0.5 Build 6 - 2024-08-08</h4>
+<p>
+    <ul>
+        <li>Implemented Tutorial</li>
+        <li>Fixed Eco score calculation</li>
+        <li>Moved Target Time Point in first segment 100m farther</li>
+        <li>New sprite frames for Rei</li>
+    </ul>
+</p>
+
+<h4>0.5 Build 5 - 2024-07-22</h4>
+<p>
+    <ul>
+        <li>Changed Japanese text for "1 stop" from "ワンストップ" to "1駅"</li>
+        <li>Added a button prompt progression indicator to various screens</li>
+        <li>Updated Lookahead to display O for passing stations (instead of X)</li>
+        <li>Implemented Japanese sprite strings in the HUD</li>
+        <li>Updated video scene visuals to include buildings and stations</li>
+        <li>Separated video asset into smaller chunks for better performance</li>
+        <li>Updated High Score row on results screen to display properly</li>
+        <li>Other stability fixes</li>
+    </ul>
+</p>
+
+<h4>0.5 Build 4 - 2024-07-07</h4>
+<p>
+    <ul>
+        <li>Changed English name of 富士山 to "Mt. Fuji" (was "Fujisan")</li>
+        <li>Made cycle timer properly take delta time into account</li>
+        <li>Optimized loading speed for game package metadata</li>
+        <li>Removed requirement for player to return gear to N after the ATC auto-brake engages and releases</li>
+        <li>Prevented HUD elements from flashing while gameplay is inactive</li>
+        <li>Changed target time point-of-interest to update every second, instead of every frame, in order to prevent the number changing rapidly in the HUD</li>
+        <li>Fixed a bug where running out of Trust during the station arrival sequence wasn't properly causing a game over</li>
+        <li>Fixed a bug where the HUD flash message was not fading out properly before the diagram clear sequence</li>
+        <li>Other stability fixes</li>
+    </ul>
+</p>
+<h4>0.5 Build 3 - 2024-06-29</h4>
+<p>Optimized font loading to reduce launch time.</p>
+<h4>0.5 Build 2 - 2024-06-24</h4>
+<p>Initial playtest release</p>
+<hr>
+
+<h3>Questions, Comments, and Feedback!</h3>
+<p>Please feel free to send me feedback on Discord, either in the playtesting thread in Playdate Squad, or to me directly via DM.</p>
+<p>I will also be emailing all testers who signed up, so please feel free to email me as well.</p>
